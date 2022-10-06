@@ -59,7 +59,7 @@
 
 .cabecera-banner-img {
     background: url("../img/Hero.svg") no-repeat center;
-    background-size: 100%;
+    background-size: cover;
     height: 352px;
     width: 100%;
 }

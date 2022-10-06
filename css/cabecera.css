@@ -1,0 +1,107 @@
+.cabecera {
+    grid-area: cabecera;
+    grid-column: 1 / span 3;
+    height: 467px;
+}
+
+.cabecera-superior {
+    display: grid;
+    grid-template-columns: 12vw 54.4vw 12.6vw;
+    height: 83px;
+    margin-left: 10.5vw;
+    margin-top: 32px;
+    width: 79vw;
+}
+
+.cabecera-emblema {
+    background: url("../img/LogoSup.svg") no-repeat center;
+    background-size: 12vw;
+    grid-column: 1;
+    height: 50px;
+    width: 12vw;
+}
+
+.cabecera-busqueda {
+    background-color: #edeeec;
+    border-radius: 20px;
+    border-style: hidden;
+    font-family: 'Raleway';
+    font-size: 14px;
+    grid-column: 2 / 3;
+    height: 40px;
+    line-height: 16px;
+    margin-left: 32px;
+    margin-top: 5px;
+    width: 28vw;
+}
+
+.cabecera-botonLogin {
+    background-color: transparent;
+    border-color: #2a7ae4;
+    border-style: dark;
+    border-width: 1px;
+    color: #2a7ae4;
+    font-family: 'Raleway';
+    font-size: 16px;
+    font-weight: 400;
+    grid-column: 3 / 4;
+    height: 50px;
+    line-height: 18.78px;
+    justify-self: right;
+    width: 12.6vw;
+}
+
+.cabecera-banner {
+    display: inline;
+    background-color: aquamarine;
+    height: 352px;
+}
+
+.cabecera-banner-img {
+    background: url("../img/Hero.svg") no-repeat center;
+    background-size: 100%;
+    height: 352px;
+    width: 100%;
+}
+
+.cabecera-banner-zonaTexto {
+    position: absolute;
+    top: 265px;
+    left: 10.5vw;
+    height: 170px;
+    width: 79vw;
+}
+
+.banner-zonaTexto-titulo {
+    color: white;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 52px;
+    height: 61px;
+    line-height: 61px;
+    width: 70vw;
+
+}
+
+.banner-zonaTexto-contenido {
+    color: white ;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 22px;
+    height: 26px;
+    line-height: 26px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.cabecera-banner-botonVerCons {
+    background-color: #2a7ae4;
+    border-color: transparent;
+    color: white;
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 16px;
+    height: 51px;
+    line-height: 19px;
+    width: 129px;
+}

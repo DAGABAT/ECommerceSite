@@ -1,28 +1,23 @@
 .mallado {
+    /*background-color: rgb(122, 185, 120);*/
+    background-color: #f7faf7;
+    display: grid;
+    grid-template-columns:10.5vw 79vw 10.5vw ;
+    grid-template-rows: 467px 1174px 470px;  
+    grid-template-areas:
+        'cabecera'
+        'contenido'
+        'rodapie';
+}
+
+.contenido {
+    background-color: gray;
+    grid-area: contenido;
 
 }
 
-.cabecera {
-    background-color: blanchedalmond;
-    height:467px ;
-}
 
-.cabecera-menu {
-    background-color: aquamarine;
-    height: 115px;
-    width: 1136px;
-    margin-left:11%;
-}
-
-
-
-
-.cabecera-banner {
-    height: 352px;
-}
-
-.cabecera-banner-img {
-    background: url("../img/banner-sup.png") no-repeat center;
-    width:1440px;
-    height:352px;
+.rodapie {
+    background-color: burlywood;
+    grid-area: rodapie;
 }

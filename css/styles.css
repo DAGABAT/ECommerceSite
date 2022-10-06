@@ -10,12 +10,6 @@
         'rodapie';
 }
 
-.contenido {
-    background-color: gray;
-    grid-area: contenido;
-
-}
-
 
 .rodapie {
     background-color: burlywood;

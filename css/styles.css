@@ -9,9 +9,3 @@
         'contenido'
         'rodapie';
 }
-
-
-.rodapie {
-    background-color: burlywood;
-    grid-area: rodapie;
-}

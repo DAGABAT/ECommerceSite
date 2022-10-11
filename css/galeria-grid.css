@@ -1,0 +1,47 @@
+.mallaGaleria {
+    display: grid;
+    grid-template-columns: 10.5vw 79vw 10.5vw;
+    grid-template-rows: 115px 1070px 470px;
+    grid-template-areas:
+        'cabecera'
+        'contenidoGal'
+        'rodapie';
+}
+
+@media (max-width: 1439px) {
+    .mallaGaleria {
+        grid-template-rows: 115px 1239px 470px;
+    }
+}
+
+@media (max-width:1119px) {
+    .mallaGaleria {
+        grid-template-rows: 115px 1500px 470px;
+    }
+}
+
+@media (max-width: 970px) {
+    .mallaGaleria {
+        grid-template-columns: 4.1vw 91.8vw 4.1vw;
+        grid-template-rows: 115px 1239px 470px;
+    }
+}
+
+@media (max-width: 964px){
+    .mallaGaleria {
+        grid-template-rows: 115px 1500px 470px;
+    }
+}
+
+@media (max-width: 571px) {
+    .mallaGaleria {
+        grid-template-rows: 115px 1790px 470px;
+    }
+}
+
+@media (max-width: 570px) {
+    .mallaGaleria {
+        grid-template-rows: 115px 2660px 470px;
+    }
+}
+

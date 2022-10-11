@@ -32,6 +32,7 @@ html {
     font-family: 'Raleway';
     font-size: 0.875rem;
     grid-column: 2 / 3;
+    grid-row: 1;
     height: 40px;
     line-height: 1rem;
     margin-left: 32px;
@@ -49,6 +50,7 @@ html {
     font-size: 1rem;
     font-weight: 400;
     grid-column: 3 / 4;
+    grid-row: 1;
     height: 50px;
     line-height: 18.78px;
     justify-self: right;

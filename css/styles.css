@@ -1,6 +1,6 @@
 .mallado {
     /*background-color: rgb(122, 185, 120);*/
-    background-color: #f7faf7;
+    background-color: #f5f5f5;
     display: grid;
     grid-template-columns: 10.5vw 79vw 10.5vw;
     grid-template-rows: 467px 1174px 470px;

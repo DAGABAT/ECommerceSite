@@ -1,17 +1,15 @@
 .rodapie {
-    background-color: burlywood;
     grid-area: rodapie;
     grid-column: 1 / 4;
 }
 
 .rodapie-contacto {
-    background-color: royalblue;
+    background-color: #EAF2FD;
     height: 368px;
     vertical-align: middle;
 }
 
 .rodapie-contacto-contenedor {
-    background-color: yellowgreen;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -27,7 +25,6 @@
 }
 
 .contacto-links {
-    background-color: darkorange;
     display: flex;
     color: #464646;
     font-family: 'Raleway';
@@ -41,7 +38,6 @@
 }
 
 .contacto-forms {
-    background-color: darkred;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -103,14 +99,13 @@
 
 .desarrollador {
     text-align: center;
-    background-color: aqua;
     font-family: 'Raleway';
     font-weight: 500;
     font-size: 1.25rem;
     line-height: 19px;
     margin-top: 32px;
     margin-left: 40vw;
-    width: 20vw;
+    width: 30vw;
 }
 
 @media (max-width:1170px) {

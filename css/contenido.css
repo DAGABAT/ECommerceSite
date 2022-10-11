@@ -28,15 +28,33 @@
 }
 
 .producto-boton {
+    align-items: baseline;
+    display: flex;
+    flex-direction: row;
+    height: 24px;
+    justify-content: space-between;
+    width: 97px;
+}
+
+.producto-boton-texto {
+    white-space: nowrap ;
     color: #2A7AE4;
     background: none;
     border: none;
     font-family: 'Raleway';
     font-weight: 700;
-    font-size: 16px;
+    font-size: 1rem;
+    height: 19px;
     line-height: 18px;
+    width: 65px;
+}
+
+.producto-boton-icono {
+    font-family: 'FontAwesome';
+    color: #2A7AE4;
     height: 24px;
-    width: 97px;
+    margin-left: 8px;
+    width: 24px;
 }
 
 .producto-estante {
@@ -132,10 +150,21 @@
     }
 
     .producto-boton {
-        font-size: 16px;
-        height: 24px;
-        line-height: 19px;
-        width: 97px;
+        height: 16px;
+        width: 85px;
+    }
+    
+    .producto-boton-texto {
+        font-size: 0.875rem;
+        height: 16px;
+        line-height: 1rem;
+        width: 57px;
+    }
+    
+    .producto-boton-icono {
+        height: 16px;
+        margin-left: 4px;
+        width: 16px;
     }
 
     .producto-estante {
@@ -157,7 +186,7 @@
 
 }
 
-@media (max-width: 740px){
+@media (max-width: 740px) {
     .producto-estante {
         margin-top: 16px;
     }

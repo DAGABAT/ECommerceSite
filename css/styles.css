@@ -2,10 +2,31 @@
     /*background-color: rgb(122, 185, 120);*/
     background-color: #f7faf7;
     display: grid;
-    grid-template-columns:10.5vw 79vw 10.5vw ;
-    grid-template-rows: 467px 1174px 470px;  
+    grid-template-columns: 10.5vw 79vw 10.5vw;
+    grid-template-rows: 467px 1174px 470px;
     grid-template-areas:
         'cabecera'
         'contenido'
         'rodapie';
+}
+
+@media (max-width: 970px) {
+
+    .mallado {
+        grid-template-columns: 4.1vw 91.8vw 4.1vw;
+        grid-template-rows: 424px 1074px 470px;
+    }
+}
+
+@media (max-width:767px) {
+    .mallado{
+        grid-template-rows:424px 1764px 470px ;
+    }  
+}
+
+@media (max-width:740px) {
+    .mallado{
+        grid-template-columns: 4.5vw 91vw 4.5vw;
+        grid-template-rows:264px 1764px 655px ;
+    }  
 }

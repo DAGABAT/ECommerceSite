@@ -46,7 +46,7 @@
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
-    width: 560px;
+    width: 39vw;
 }
 
 .forms-titulo {
@@ -106,9 +106,91 @@
     background-color: aqua;
     font-family: 'Raleway';
     font-weight: 500;
-    font-size: 16px;
+    font-size: 1.25rem;
     line-height: 19px;
     margin-top: 32px;
-    margin-left: 605.5px;
-    width: 229px;
+    margin-left: 40vw;
+    width: 20vw;
+}
+
+@media (max-width:1170px) {
+    .rodapie-contacto-contenedor {
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 300px;
+        margin-left: 10.5vw;
+        padding-top: 32px;
+        width: 79vw;
+    } 
+
+    .contacto-img {
+        height: 50px;
+        width: 15vw;
+    }
+
+    .contacto-links {
+        height: 234px;
+        margin-top:16px;
+        width: 15vw;
+    }
+
+    .contacto-forms {
+        height: 229px;
+        margin-left: 7.5vw;
+        width: 56.5vw;
+    }
+}
+
+@media (max-width: 970px){
+    .rodapie-contacto-contenedor {
+        align-items: center;
+        margin-left: 4.1vw;
+        width: 91.8vw;
+    } 
+
+    .contacto-img {
+        width: 33vw;
+    }
+
+    .contacto-links {
+        width: 33vw;
+    }
+
+    .contacto-forms {
+        height: 229px;
+        margin-left: 20px;
+        width: 56.5vw;
+    }
+}
+
+@media (max-width:740px){
+    .rodapie-contacto {
+        height: 655px;
+    }
+
+    .rodapie-contacto-contenedor {
+        height: 655px;
+        justify-content: space-around;
+        margin-left: 4.5vw;
+        padding-top: 0px;
+        width: 91vw;
+    } 
+
+    .contacto-links {
+        align-items: center;
+        height: 194px;
+        margin-top:16px;
+        width: 100%;
+    }
+
+    .contacto-forms {
+        height: 229px;
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .desarrollador {
+        margin-left: 18.5vw;
+        width: 63vw;
+    }
 }

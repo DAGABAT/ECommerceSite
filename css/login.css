@@ -1,0 +1,98 @@
+
+main{
+    background-color: #e9eaee;
+    grid-area: login;
+    grid-column: 1 / span 4;
+    width: 100%;
+}
+
+.btnLogin {
+    display: none;
+}
+
+.login_contenedor {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Raleway';
+    height: 291px;
+    justify-content: space-between;
+    margin-left: calc((100vw - 423px)/2) ;
+    margin-top: 92px;
+    width: 423px;
+}
+
+.login_contenedor--titulo {
+    font-size: 1.125rem;
+    font-weight: 700;
+    height: 29px;
+    line-height:1.32rem ;
+    width: 131px;
+
+}
+
+.login_contenedor--form_mail {
+    border: none;
+    color: #a2a2a2;
+    font-size: 16px;
+    font-weight: 400;
+    height: 63px;
+    width: 100%;
+}
+
+.login_contenedor--form_contrasena {
+    border: none;
+    color: #a2a2a2;
+    font-size: 16px;
+    font-weight: 400;
+    height: 63px;
+    width: 100%;
+}
+
+.login_contenedor--boton {
+    background-color: #2A7AE4;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    height: 62px;
+    line-height: 21px;
+    width: 100%;
+}
+
+@media (max-width: 767px) {
+    .login_contenedor {
+        height: 189px;
+        margin-left: calc((100vw - 275px)/2) ;
+        margin-top: 45px;
+        width: 275px;
+    }
+    .login_contenedor--titulo {
+        font-size: 16px;
+        line-height: 19px;
+        width: 105px;
+    }
+
+    .login_contenedor--form_mail {
+        height: 41px;
+    }
+    
+    .login_contenedor--form_contrasena {
+        height: 41px;
+    }
+
+    
+.login_contenedor--boton {
+    font-size: 14px;
+    height: 40px;
+    line-height: 16px;
+    width: 109px;
+}
+
+}
+
+@media (max-width: 717px) {
+    .login_contenedor {
+        margin-top: 97px;
+    }
+}

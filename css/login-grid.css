@@ -1,0 +1,21 @@
+.mallaInput {
+    display: grid;
+    grid-template-columns: 10.5vw 79vw 10.5vw;
+    grid-template-rows: 115px 474px 470px;
+    grid-template-areas: 
+    'cabecera'
+    'login'
+    'rodapie';
+}
+
+@media (max-width: 767px) {
+    .mallaInput{
+        grid-template-rows: 72px 295px 470px;
+    }   
+}
+
+@media (max-width: 717px) {
+    .mallaInput{
+        grid-template-rows: 72px 362px 470px;
+    } 
+}

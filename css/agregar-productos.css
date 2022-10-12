@@ -1,5 +1,4 @@
 .form_contenedor {
-    background-color: wheat;
     display: flex;
     flex-direction: column;
     grid-column: 2 / 3;

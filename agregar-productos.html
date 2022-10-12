@@ -6,18 +6,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./css/reset.css" rel="stylesheet">
-    <link href="./css/styles.css" rel="stylesheet">
+    <link href="./css/agregar-productos-malla.css" rel="stylesheet">
+    <link href="./css/agregar-productos.css" rel="stylesheet">
     <link href="./css/cabecera.css" rel="stylesheet">
     <link href="./css/banner.css" rel="stylesheet">
     <link href="./css/contenido.css" rel="stylesheet">
     <link href="./css/rodapie.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500:0,600;0,700;1,500;1,700&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500:0,600;0,700;1,500;1,700&display=swap"
         rel="stylesheet">
     <title>AluraGeek Comercio</title>
 </head>
 
-<body class="mallado">
+<body class="malladoAgregar">
     <header class="cabecera">
         <div class="cabecera-superior">
             <img class="cabecera-emblema">
@@ -25,11 +27,35 @@
                 <input type="search" placeholder="    Que deseas buscar?" class="cabecera-busqueda-input">
                 <div class="cabecera-busqueda-icono fa-search"></div>
             </div>
-            <button class="cabecera-botonLogin">Login</button>
+            <button class="cabecera-botonLogin">Menu administrador</button>
         </div>
     </header>
-    <main class="contenido">
-      
+    <main class="contenidoAgregarP">
+        <div class="form_contenedor">
+            <div class="form_contenedor--titulo">
+                <h1>Agregar nuevo producto</h1>
+            </div>
+            <div class="form_contenedor--gral">
+                <label class="form_contenedor--gral-label" for="origen">URL de la imagen</label>
+                <input type="url" id="origen" placeholder="data:image/..." class="form_contenedor--gral-input">
+            </div>
+            <div class="form_contenedor--gral">
+                <label class="form_contenedor--gral-label" for="categoria">Categoria</label>
+                <input type="text" id="categoria" placeholder="Escriba la categoria del producto" class="form_contenedor--gral-input">
+            </div>
+            <div class="form_contenedor--gral">
+                <label class="form_contenedor--gral-label" for="nombre">URL de la imagen</label>
+                <input type="text" id="nombre" placeholder="Producto XYZ" class="form_contenedor--gral-input">
+            </div>
+            <div class="form_contenedor--gral">
+                <label class="form_contenedor--gral-label" for="precio">Precio del producto</label>
+                <input type="url" id="precio" placeholder="$85.00" class="form_contenedor--gral-input">
+            </div>
+            <div class="form_contenedor--descripcionP">
+                <input type="url" id="precio" placeholder="  Descripcion del producto" class="form_contenedor--descripcionP-input">
+            </div>            
+            <button class="form_contenedor--botonCP">Agregar producto</button>
+        </div>
     </main>
     <footer class="rodapie">
         <div class="rodapie-contacto">

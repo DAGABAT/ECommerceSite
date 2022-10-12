@@ -1,0 +1,31 @@
+.malladoAgregar {
+    display: grid;
+    grid-template-columns: 10.5vw 79vw 10.5vw;
+    grid-template-rows: 115px 619px 470px;
+    grid-template-areas: 
+    'cabecera'
+    'FormAgregar'
+    'rodapie';
+}
+
+.contenidoAgregarP {
+    background-color: #e9eaee ;
+    display: grid;
+    grid-area: FormAgregar;
+    grid-column: 1 / span 3; 
+    grid-template-columns: 30.6vw 38.8vw 30.6vw; 
+    grid-template-rows: 64px 491px 64px; 
+}
+
+
+@media (max-width: 768px) {
+    .malladoAgregar {
+        grid-template-columns: 10.5vw 79vw 10.5vw;
+        grid-template-rows: 72px 543px 470px;
+    }
+    
+    .contenidoAgregarP {
+        grid-template-columns: 4.1vw 91.8vw 4.1vw; 
+        grid-template-rows: 32px 491px 32px; 
+    }
+}

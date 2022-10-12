@@ -1,0 +1,123 @@
+
+.contenidoDetalleP_contenedor1 {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    height: 403px;
+    justify-content: space-between;
+    width: 79vw;
+}
+
+.contenedor1--imagen {
+    background: url("../img/15-keyb.jpg") no-repeat center;
+    background-size: cover;
+    height: 403px;
+    width: 39vw ;
+}
+
+.contenedor1--cajatexto{
+    column-gap: 8px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Raleway';
+    height: 210px;
+    width: 39vw;
+}
+
+.contenedor1--cajatexto--titulo {
+    font-family: 'Raleway';
+    font-size:3.25rem ;
+    font-weight: 500;
+    line-height: 3.81rem;
+    height: 61px;
+}
+
+.contenedor1--cajatexto--precio{
+    font-size: 16px;
+    font-weight: 700 ;
+    height: 19px;
+    line-height: 19px;
+}
+
+.contenedor1--cajatexto--descripcion{
+    font-weight: 400px;
+    font-size: 16px;
+    height: 114px;
+    line-height: 19px;
+}
+
+.contenidoDetalleP_contenedor2 {
+    background-color: peru;
+    grid-column: 2/3;
+    grid-row: 4/5;
+    height: 306px;
+    width: 79vw;
+}
+
+@media (max-width:970px) {
+    .contenidoDetalleP_contenedor1 {
+        height: 157px;
+        justify-content: space-between;
+        width: 91.8vw;
+    } 
+
+    .contenedor1--imagen {
+        background: url("../img/15-keyb.jpg") no-repeat center;
+        background-size: cover;
+        height: 157px;
+        width: 33vw ;
+    }
+    
+    .contenedor1--cajatexto{
+        font-family: 'Raleway';
+        height: 157px;
+        width: 56.5vw;
+    }
+
+    .contenedor1--cajatexto--titulo {
+        font-size:1.375rem ;
+        line-height: 1.625rem;
+        height: 26px;
+    }
+        
+    .contenedor1--cajatexto--descripcion{
+        height: 96px;
+        line-height: 17px;
+    }
+
+    .contenidoDetalleP_contenedor2 {
+        background-color: peru;
+        grid-column: 2/3;
+        grid-row: 4/5;
+        height: 305px;
+        width: 91.6vw;
+    }
+}
+
+@media (max-width:716px) {
+    .contenidoDetalleP_contenedor1 {
+        flex-direction: column;
+        grid-row: 1/2;
+        height: 413px;
+        justify-content: space-between;
+        width: 91.8vw;
+    }
+    
+    .contenedor1--imagen {
+        height: 192px;
+        width: 91.8vw ;
+    }
+    
+    .contenedor1--cajatexto{
+        height: 189px;
+        width: 91.8vw;
+    }
+
+    .contenidoDetalleP_contenedor2 {
+        grid-row: 3/4;
+        height: 306px;
+        width: 91.8vw;
+    }
+}

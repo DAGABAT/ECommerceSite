@@ -63,15 +63,17 @@
     }
 
     .banner-zonaTexto-titulo {
-        font-size: 2.81rem;
+        font-size: 52px;
         line-height: 3.81rem;
     }
 
     .banner-zonaTexto-contenido {
+        font-size: 22px;
         width: 100%;
     }
 
     .cabecera-banner-botonVerCons {
+        font-size: 0.875rem;
         height: 40px;
         width: 118px;
     }
@@ -106,8 +108,14 @@
 
     .banner-zonaTexto-contenido {
         font-size: 0.875rem;
-        line-height: 1rem;
+        line-height: 0.875rem;
         margin-bottom: 0px;
         margin-top: 8px;
+    }
+}
+
+@media (max-width:400px) {
+    .banner-zonaTexto-contenido {
+        font-size: 14px;
     }
 }

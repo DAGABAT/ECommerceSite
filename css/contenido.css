@@ -30,7 +30,7 @@
     flex-direction: row;
     height: 24px;
     justify-content: space-between;
-    width: 97px;
+    width: 120px;
 }
 
 .producto-boton-texto {
@@ -55,6 +55,7 @@
 }
 
 .producto-estante {
+    column-gap: 15px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -125,13 +126,13 @@
 
 }
 
-@media (max-width:767px) {
+@media (max-width:766px) {
     .contenido {
         height: 1764px;
     }
 
     .contenido-producto {
-        height: 588px;
+        height: 590px;
         margin-top: 16px;
     }
 
@@ -166,7 +167,6 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        flex-grow: 2;
         margin-top: 0px;
     }
 
@@ -193,6 +193,15 @@
     }
 }
 
+@media (max-width: 400px) {
+    .producto-unidad {
+        width: 156px;
+    }
+
+    .unidad-img {
+        width: 156px;
+    }
+}
 
 @media (max-width: 360px) {
     .producto-boton {

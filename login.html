@@ -12,8 +12,9 @@
     <link href="./css/contenido.css" rel="stylesheet">
     <link href="./css/rodapie.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,700;1,500;1,700&display=swap"
-        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;600;700;800&display=swap" rel="stylesheet">
     <title>AluraGeek Inicio de Sesion</title>
 </head>
 
@@ -33,14 +34,12 @@
             <div class="login_contenedor--titulo">
                 <h1>Iniciar Sesion</h1>
             </div>
-            <input 
-            type="email" 
-            placeholder="   Escriba su correo electronico" class="login_contenedor--form_mail" data-input="correo" data-entrar="correo" pattern="[a-z0-9]+@[a-z]+\.[a-z]{2,3}" required>
+            <input type="email" placeholder="   Escriba su correo electronico" class="login_contenedor--form_mail"
+                data-input="correo" data-entrar="correo" pattern="[a-z0-9]+@[a-z]+\.[a-z]{2,3}" required>
             <span class="span-mensaje" data-span="correo"></span>
-            <input 
-            type="text"
-            placeholder="    Escriba su contrasena" 
-            class="login_contenedor--form_contrasena" pattern="^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#&()-[{}]:;',?/*~$^+=>]).{8,20}$" data-input="contrasena" data-entrar="contrasena" required>
+            <input type="text" placeholder="    Escriba su contrasena" class="login_contenedor--form_contrasena"
+                pattern="^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#&()-[{}]:;',?/*~$^+=>]).{8,20}$"
+                data-input="contrasena" data-entrar="contrasena" required>
             <span class="span-mensaje" data-span="contrasena"></span>
             <button class="login_contenedor--boton" data-boton-entrar>Entrar</button>
         </div>
@@ -61,10 +60,13 @@
                     <h2 class="forms-titulo">Hable con nosotros</h2>
                     <div class="form-nombre">
                         <label class="nombre-label" for="texto">Nombre</label>
-                        <input type="text" id="texto" placeholder="Andrews Doe" minlength="3" maxlength="40" pattern="\D[A-Za-z\s]{0,40}" class="input-nombre" required data-input="nombre" data-rodapie="nombre">
+                        <input type="text" id="texto" placeholder="Andrews Doe" minlength="3" maxlength="40"
+                            pattern="\D[A-Za-z\s]{0,40}" class="input-nombre" required data-input="nombre"
+                            data-rodapie="nombre">
                         <span class="span-nombre" data-span="nombre"></span>
                     </div>
-                    <input type="text" id="mensaje" placeholder="Escribe tu mensaje" class="input-mensaje" minlength="10" maxlength="120" data-input="mensaje" data-rodapie="mensaje" required >
+                    <input type="text" id="mensaje" placeholder="Escribe tu mensaje" class="input-mensaje"
+                        minlength="10" maxlength="120" data-input="mensaje" data-rodapie="mensaje" required>
                     <span class="span-mensaje" data-span="mensaje"></span>
                     <boton class="forms-boton-enviar" data-boton-rodapie="boton">Enviar mensaje</boton>
                 </div>
@@ -78,4 +80,5 @@
     <script type="module" src="./js/login.js"></script>
     <script type="module" src="./js/rodapie.js"></script>
 </body>
+
 </html>

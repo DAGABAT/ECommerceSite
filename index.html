@@ -12,8 +12,9 @@
     <link href="./css/contenido.css" rel="stylesheet">
     <link href="./css/rodapie.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500:0,600;0,700;1,500;1,700&display=swap"
-        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;600;700;800&display=swap" rel="stylesheet">
     <title>AluraGeek Comercio</title>
 </head>
 
@@ -195,10 +196,13 @@
                     <h2 class="forms-titulo">Hable con nosotros</h2>
                     <div class="form-nombre">
                         <label class="nombre-label" for="texto">Nombre</label>
-                        <input type="text" id="texto" placeholder="Andrews Doe" minlength="3" maxlength="40" pattern="\D[A-Za-z\s]{0,40}" class="input-nombre" required data-input="nombre" data-rodapie="nombre">
+                        <input type="text" id="texto" placeholder="Andrews Doe" minlength="3" maxlength="40"
+                            pattern="\D[A-Za-z\s]{0,40}" class="input-nombre" required data-input="nombre"
+                            data-rodapie="nombre">
                         <span class="span-nombre" data-span="nombre"></span>
                     </div>
-                    <input type="text" id="mensaje" placeholder="Escribe tu mensaje" class="input-mensaje" minlength="10" maxlength="120" data-input="mensaje" data-rodapie="mensaje" required >
+                    <input type="text" id="mensaje" placeholder="Escribe tu mensaje" class="input-mensaje"
+                        minlength="10" maxlength="120" data-input="mensaje" data-rodapie="mensaje" required>
                     <span class="span-mensaje" data-span="mensaje"></span>
                     <boton class="forms-boton-enviar" data-boton-rodapie="boton">Enviar mensaje</boton>
                 </div>

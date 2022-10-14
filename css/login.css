@@ -23,12 +23,11 @@ main{
 }
 
 .login_contenedor--titulo {
-    font-size: 1.125rem;
+    font-size: 18px;
     font-weight: 700;
     height: 29px;
     line-height:1.32rem ;
     width: 131px;
-
 }
 
 .login_contenedor--form_mail {

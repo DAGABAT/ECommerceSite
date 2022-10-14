@@ -19,15 +19,16 @@
     }
 }
 
-@media (max-width:767px) {
+@media (max-width:766px) {
     .mallado{
-        grid-template-rows:72px 352px 1764px 470px ;
+        grid-template-rows:72px 352px 1770px 470px ;
     }  
 }
 
 @media (max-width:740px) {
     .mallado{
         grid-template-columns: 4.5vw 91vw 4.5vw;
-        grid-template-rows:72px 192px 1764px 655px ;
+        grid-template-rows:72px 192px 1825px 655px;
     }  
 }
+

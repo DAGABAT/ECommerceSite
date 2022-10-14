@@ -103,7 +103,8 @@ span {
     font-weight: 400;
     font-size: 16px;
     height: 51px;
-    line-height: 19px;
+    line-height: 51px;
+    text-align: center;
     width: 144px;
 }
 
@@ -157,7 +158,8 @@ span {
     } 
 
     .contacto-img {
-        width: 33vw;
+        align-self: flex-start;
+        width: 150px;
     }
 
     .contacto-links {
@@ -182,6 +184,10 @@ span {
         padding-top: 0px;
         width: 91vw;
     } 
+
+    .contacto-img {
+        align-self: center;
+    }
 
     .contacto-links {
         align-items: center;

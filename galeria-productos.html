@@ -31,7 +31,8 @@
         <div class="contenidoGaleria-fondo">
             <div class="producto-titulo-Gal">
                 <h1 class="producto-titulo-contenido">Todos los productos</h1>
-                <button class="producto-boton-agregar"> <a href="./agregar-productos.html">Agregar producto</a> </button>
+                <button class="producto-boton-agregar"> <a href="./agregar-productos.html">Agregar producto</a>
+                </button>
             </div>
             <div class="producto-contenido-Gal">
                 <div class="producto-unidad">
@@ -161,16 +162,24 @@
                     <h2 class="forms-titulo">Hable con nosotros</h2>
                     <div class="form-nombre">
                         <label class="nombre-label" for="texto">Nombre</label>
-                        <input type="text" id="texto" placeholder="Andrews Doe" class="input-nombre">
+                        <input type="text" id="texto" placeholder="Andrews Doe" minlength="3" maxlength="40"
+                            pattern="\D[A-Za-z\s]{0,40}" class="input-nombre" required data-input="nombre"
+                            data-rodapie="nombre">
+                        <span class="span-nombre" data-span="nombre"></span>
                     </div>
-                    <input type="text" id="mensaje" placeholder="Escribe tu mensaje" class="input-mensaje">
-                    <boton class="forms-boton-enviar">Enviar mensaje</boton>
+                    <input type="text" id="mensaje" placeholder="Escribe tu mensaje" class="input-mensaje"
+                        minlength="10" maxlength="120" data-input="mensaje" data-rodapie="mensaje" required>
+                    <span class="span-mensaje" data-span="mensaje"></span>
+                    <boton class="forms-boton-enviar" data-boton-rodapie="boton">Enviar mensaje</boton>
                 </div>
             </div>
         </div>
         <div class="rodapie-desarrollador">
             <h2 class="desarrollador">Desarrollado por <a href="https://t.me//dagabat">DAGABAT<a></a><br>2022</h2>
-
         </div>
     </footer>
+    <script type="module" src="./js/Conexiones.js"></script>
+    <script type="module" src="./js/rodapie.js"></script>
 </body>
+
+</html>

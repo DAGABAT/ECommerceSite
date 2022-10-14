@@ -35,12 +35,14 @@
             </div>
             <input 
             type="email" 
-            placeholder="   Escriba su correo electronico" class="login_contenedor--form_mail">
+            placeholder="   Escriba su correo electronico" class="login_contenedor--form_mail" data-input="correo" data-entrar="correo" pattern="[a-z0-9]+@[a-z]+\.[a-z]{2,3}" required>
+            <span class="span-mensaje" data-span="correo"></span>
             <input 
             type="text"
             placeholder="    Escriba su contrasena" 
-            class="login_contenedor--form_contrasena">
-            <button class="login_contenedor--boton"><a href="./galeria-productos.html">Entrar</a></button>
+            class="login_contenedor--form_contrasena" pattern="^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#&()-[{}]:;',?/*~$^+=>]).{8,20}$" data-input="contrasena" data-entrar="contrasena" required>
+            <span class="span-mensaje" data-span="contrasena"></span>
+            <button class="login_contenedor--boton" data-boton-entrar>Entrar</button>
         </div>
     </main>
     <footer class="rodapie">
@@ -59,10 +61,12 @@
                     <h2 class="forms-titulo">Hable con nosotros</h2>
                     <div class="form-nombre">
                         <label class="nombre-label" for="texto">Nombre</label>
-                        <input type="text" id="texto" placeholder="Andrews Doe" class="input-nombre">
+                        <input type="text" id="texto" placeholder="Andrews Doe" minlength="3" maxlength="40" pattern="\D[A-Za-z\s]{0,40}" class="input-nombre" required data-input="nombre" data-rodapie="nombre">
+                        <span class="span-nombre" data-span="nombre"></span>
                     </div>
-                    <input type="text" id="mensaje" placeholder="Escribe tu mensaje" class="input-mensaje">
-                    <boton class="forms-boton-enviar">Enviar mensaje</boton>
+                    <input type="text" id="mensaje" placeholder="Escribe tu mensaje" class="input-mensaje" minlength="10" maxlength="120" data-input="mensaje" data-rodapie="mensaje" required >
+                    <span class="span-mensaje" data-span="mensaje"></span>
+                    <boton class="forms-boton-enviar" data-boton-rodapie="boton">Enviar mensaje</boton>
                 </div>
             </div>
         </div>
@@ -71,4 +75,6 @@
 
         </div>
     </footer>
+    <script type="module" src="./js/login.js"></script>
+    <script type="module" src="./js/rodapie.js"></script>
 </body>

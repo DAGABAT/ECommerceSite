@@ -92,6 +92,7 @@ span {
 
 .alerta {
     background-color: burlywood;
+    padding-bottom: 15px;
 }
 
 .forms-boton-enviar {

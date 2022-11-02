@@ -1,5 +1,6 @@
 const BtnLoginIndex = document.querySelector('[data-index-login]');
 const BtnConsolasIndex = document.querySelector('[data-index-consolas]');
+const BtnVerTodo = document.querySelector('[data-btn-VerT]');
 
 //Abre la ventana de login
 BtnLoginIndex.addEventListener('click', () => {
@@ -9,4 +10,10 @@ BtnLoginIndex.addEventListener('click', () => {
 BtnConsolasIndex.addEventListener('click', () => {
     window.open("./detalle-producto.html", "_self");
 });
+
+
+BtnVerTodo.addEventListener('click', (accion)=>{
+    accion.preventDefault();
+    window.open("./galeria-productos.html", "_self");
+})
 

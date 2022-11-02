@@ -25,6 +25,18 @@
     font-weight: 400;
     height: 40px;
     justify-content: space-around;
+    padding: 8px 12px 0px 12px;
+}
+
+.form_contenedor--gral-file {
+    background-color: white;
+    border-bottom: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Raleway';
+    font-weight: 400;
+    height: 55px;
+    justify-content: space-around;
     padding: 8px 12px 8px 12px;
 }
 
@@ -42,19 +54,30 @@
     line-height: 20px;
 }
 
+.form_contenedor--gral-input-file {
+    border: none;
+    border-bottom: #a2a2a2;
+    color: black;
+    font-size: 16px;
+    height: 30px;
+    line-height: 20px;
+    padding-bottom: 8px;
+}
+
 .form_contenedor--descripcionP {
     background-color: white;
     border-bottom: 1px solid gray;
     font-family: 'Raleway';
     font-weight: 400;
-    height: 82px;
+    height: 62px;
     justify-content: space-around;
+    padding-left: 12px;
     padding-top: 8px;
 }
 
 .form_contenedor--descripcionP-input{
     border: none;
-    width: 38.4vw;
+    width: 36vw;
 }
 
 .form_contenedor--botonCP {

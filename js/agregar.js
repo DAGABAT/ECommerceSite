@@ -15,7 +15,21 @@ const validacion = () => {
     )
 }
 
-BotonAgregar.addEventListener('click',validacion);
+BotonAgregar.addEventListener('click', (accion) => {
+    accion.preventDefault();
+    validacion();
+    const marcador = document.querySelectorAll('[data-agregar]');
+    let sum = 0;
+    marcador.forEach(
+        (elemento) => {
+            if (elemento.dataset.id == 1) {
+                sum++;
+            }
+        });
+    if (sum == 5) {
+        window.open("./galeria-productos.html", "_self");
+    }
+});
 
 BotonMenuAdmin.addEventListener('click', () => {
     window.open("./galeria-productos.html", "_self");

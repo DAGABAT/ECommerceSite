@@ -45,6 +45,7 @@ function ValidandoMensaje (element) {
     }else{
         spanMsj.innerHTML = '';
         spanMsj.classList.remove ('alerta');
+        IdForm.dataset.id = '1';
          }
 }
 
@@ -63,6 +64,7 @@ function ValidandoCorreo (element){
     else{
         spanMsj.innerHTML = '';
         spanMsj.classList.remove ('alerta');
+        IdForm.dataset.id= '1';
          }
 }
 
@@ -82,6 +84,7 @@ function ValidandoContrasena (element) {
     else{
         spanMsj.innerHTML = '';
         spanMsj.classList.remove ('alerta');
+        IdForm.dataset.id = '1';
          }
 }
 
@@ -95,6 +98,7 @@ function ValidandoImagen (element) {
     } else {
         spanMsj.innerHTML = '';
         spanMsj.classList.remove ('alerta');
+        IdForm.dataset.id = '1';
          }}
 
 function ValidandoCategoria (element) {
@@ -107,6 +111,7 @@ function ValidandoCategoria (element) {
     } else {
         spanMsj.innerHTML = '';
         spanMsj.classList.remove ('alerta');
+        IdForm.dataset.id = '1';
          }
 }
 
@@ -120,6 +125,7 @@ function ValidandoNombreProducto (element) {
     } else {
         spanMsj.innerHTML = '';
         spanMsj.classList.remove ('alerta');
+        IdForm.dataset.id = '1';
          }
 }
 
@@ -133,6 +139,7 @@ function ValidandoPrecio (element) {
     } else {
         spanMsj.innerHTML = '';
         spanMsj.classList.remove ('alerta');
+        IdForm.dataset.id = '1';
          }
 }
 
@@ -146,5 +153,6 @@ function ValidandoDescripcion (element) {
     } else {
         spanMsj.innerHTML = '';
         spanMsj.classList.remove ('alerta');
+        IdForm.dataset.id = '1';
          }
 }

@@ -14,7 +14,8 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
     <title>AluraGeek Inicio de Sesion</title>
 </head>
 
@@ -37,9 +38,9 @@
             <input type="email" placeholder="   Escriba su correo electronico" class="login_contenedor--form_mail"
                 data-input="correo" data-entrar="correo" pattern="[a-z0-9]+@[a-z]+\.[a-z]{2,3}" required>
             <span class="span-mensaje" data-span="correo"></span>
-            <input type="text" placeholder="    Escriba su contrasena" class="login_contenedor--form_contrasena"
-                pattern="^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#&()-[{}]:;',?/*~$^+=>]).{8,20}$"
-                data-input="contrasena" data-entrar="contrasena" required>
+            <input type="text" placeholder="Escriba su contrasena" class="login_contenedor--form_contrasena"
+                pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]).{8,12}$" data-input="contrasena"
+                data-entrar="contrasena" required>
             <span class="span-mensaje" data-span="contrasena"></span>
             <button class="login_contenedor--boton" data-boton-entrar>Entrar</button>
         </div>

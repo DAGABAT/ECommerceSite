@@ -31,38 +31,38 @@
         </div>
     </header>
     <main class="contenidoAgregarP">
-        <div class="form_contenedor">
+        <div class="form_contenedor" data-form-agregar>
             <div class="form_contenedor--titulo">
                 <h1>Agregar nuevo producto</h1>
             </div>
-            <div class="form_contenedor--gral">
+            <div class="form_contenedor--gral-file">
                 <label class="form_contenedor--gral-label" for="origen">URL de la imagen</label>
-                <input type="url" id="origen" placeholder="data:image/..." class="form_contenedor--gral-input"
-                    data-input="imagen" data-agregar="imagen">
+                <input type="file" id="origen" placeholder="data:image/..." class="form_contenedor--gral-input-file"
+                    data-input="imagen" data-agregar="imagen" required>
                 <span class="span-mensaje" data-span="imagen"></span>
             </div>
             <div class="form_contenedor--gral">
                 <label class="form_contenedor--gral-label" for="categoria">Categoria</label>
                 <input type="text" id="categoria" placeholder="Escriba la categoria del producto"
-                    class="form_contenedor--gral-input" data-input="categoria" data-agregar="categoria">
+                    class="form_contenedor--gral-input" data-input="categoria" data-agregar="categoria" required>
                 <span class="span-mensaje" data-span="categoria"></span>
             </div>
             <div class="form_contenedor--gral">
                 <label class="form_contenedor--gral-label" for="nombreProducto">Nombre del producto</label>
                 <input type="text" id="nombre" minlength="3" maxlength="20" placeholder="Producto XYZ"
-                    class="form_contenedor--gral-input" data-input="nombreProducto" data-agregar="nombreProducto">
+                    class="form_contenedor--gral-input" data-input="nombreProducto" data-agregar="nombreProducto" required>
                 <span class="span-mensaje" data-span="nombreProducto"></span>
             </div>
             <div class="form_contenedor--gral">
                 <label class="form_contenedor--gral-label" for="precio">Precio del producto</label>
                 <input type="number" id="precio" placeholder="$85.00" class="form_contenedor--gral-input"
-                    data-input="precio" data-agregar="precio">
+                    data-input="precio" data-agregar="precio" required>
                 <span class="span-mensaje" data-span="precio"></span>
             </div>
             <div class="form_contenedor--descripcionP">
                 <input type="text" id="descripcion" placeholder="  Descripcion del producto" minlength="10"
                     maxlength="150" class="form_contenedor--descripcionP-input" data-input="descripcion"
-                    data-agregar="descripcion">
+                    data-agregar="descripcion" required>
                 <span class="span-mensaje" data-span="descripcion"></span>
             </div>
             <button class="form_contenedor--botonCP" data-boton-agregar>Agregar producto</button>
